@@ -12,13 +12,17 @@ Welcome to your first step towards mastering GPU programming with NVIDIA's CUDA 
  <h1 align="center">Overview  </h1>
 </p>
 
-This repository is divided into three main sections, designed to get you up and running with CUDA on Ubuntu:
+This repository is divided into four main sections, designed to get you up and running with CUDA on Ubuntu:
 
 - ### Installing Ubuntu (Dual Boot)
    Starting your journey requires setting up Ubuntu alongside your current operating system. This section guides you through creating a bootable USB drive and installing Ubuntu in a dual-boot configuration.
   
 - ### Installing the CUDA Toolkit
    Once Ubuntu is up and running, the next step is to install the CUDA Toolkit. This toolkit provides the necessary libraries and tools needed to start developing CUDA applications.
+
+ - ### Installing CuDNN
+   After installing the CUDA Toolkit, the next component you'll need is CuDNN (CUDA Deep Neural Network library). CuDNN is a GPU-accelerated library for deep neural networks. It provides highly optimized implementations of standard deep learning operations
+   
 - ### Installing OpenCV with CUDA
    To harness the power of GPU acceleration in image processing, we'll guide you through installing OpenCV with CUDA support. This enables you to perform complex image processing tasks at significantly higher speeds.
 
