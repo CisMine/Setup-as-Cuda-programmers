@@ -17,7 +17,7 @@ This repository is divided into four main sections, designed to get you up and r
 - ### Installing Ubuntu (Dual Boot)
    Starting your journey requires setting up Ubuntu alongside your current operating system. This section guides you through creating a bootable USB drive and installing Ubuntu in a dual-boot configuration.
   
-- ### Installing the CUDA Toolkit
+- ### Installing the CUDA Toolkit - CUDA Driver
    Once Ubuntu is up and running, the next step is to install the CUDA Toolkit. This toolkit provides the necessary libraries and tools needed to start developing CUDA applications.
 
  - ### Installing CuDNN
