@@ -92,7 +92,7 @@ Enter    : accept changes
 
 Ctrl + x : close editor
 
-You have successfully installed the CUDA Toolkit. You can verify this by open terminal and run this command
+You have successfully installed the CUDA Toolkit. You can verify this by open terminal and run this command:
 
 ```
 $nvcc -V
