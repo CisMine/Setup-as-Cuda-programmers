@@ -2,7 +2,7 @@
 
 
 <p align="center">
- <h1 align="center">Setup for Cuda programmers </h1>
+ <h1 align="center">Setup as Cuda programmers </h1>
 </p>
 
 
