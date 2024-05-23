@@ -74,7 +74,37 @@ $ git clone https://github.com/Itseez/opencv_contrib.git
 $ cd opencv
 $ mkdir release
 $ cd release
-$ cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_C_EXAMPLES=OFF \ -D INSTALL_PYTHON_EXAMPLES=OFF \ -D WITH_TBB=ON \ -D WITH_CUDA=ON \ -D ENABLE_FAST_MATH=ON \ -D NVCUVID_FAST_MATH=ON \ -D CUDA_FAST_MATH=ON \ -D WITH_CUBLAS=ON \ -D BUILD_opencv_java=OFF \ -D BUILD_ZLIB=ON \ -D BUILD_TIFF=ON \ -D WITH_GTK=ON \ -D WITH_NVCUVID=ON \ -D WITH_FFMPEG=ON \ -D WITH_1394=ON \ -D BUILD_PROTOBUF=ON \ -D OPENCV_GENERATE_PKGCONFIG=ON \ -D OPENCV_PC_FILE_NAME=opencv4.pc \ -D OPENCV_ENABLE_NONFREE=OFF \ -D WITH_GSTREAMER=ON \ -D WITH_V4L=ON \ -D WITH_QT=ON \ -D WITH_CUDNN=ON \ -DBUILD_opencv_dnn=ON \ -D WITH_OPENGL=ON \ -D OPENCV_EXTRA_MODULES_PATH=/opt/opencv_contrib/modules /opt/opencv/ \ -D BUILD_EXAMPLES=ON ..
+$ cmake -D CMAKE_BUILD_TYPE=RELEASE \
+      -D CMAKE_INSTALL_PREFIX=/usr/local \
+      -D INSTALL_C_EXAMPLES=OFF \
+      -D INSTALL_PYTHON_EXAMPLES=OFF \
+      -D WITH_TBB=ON \
+      -D WITH_CUDA=ON \
+      -D ENABLE_FAST_MATH=ON \
+      -D NVCUVID_FAST_MATH=ON \
+      -D CUDA_FAST_MATH=ON \
+      -D WITH_CUBLAS=ON \
+      -D BUILD_opencv_java=OFF \
+      -D BUILD_ZLIB=ON \
+      -D BUILD_TIFF=ON \
+      -D WITH_GTK=ON \
+      -D WITH_NVCUVID=ON \
+      -D WITH_FFMPEG=ON \
+      -D WITH_1394=ON \
+      -D BUILD_PROTOBUF=ON \
+      -D OPENCV_GENERATE_PKGCONFIG=ON \
+      -D OPENCV_PC_FILE_NAME=opencv4.pc \
+      -D OPENCV_ENABLE_NONFREE=OFF \
+      -D WITH_GSTREAMER=ON \
+      -D WITH_V4L=ON \
+      -D WITH_QT=ON \
+      -D WITH_CUDNN=ON \
+      -D BUILD_opencv_dnn=ON \
+      -D WITH_OPENGL=ON \
+      -D OPENCV_EXTRA_MODULES_PATH=/opt/opencv_contrib/modules \
+      -D BUILD_EXAMPLES=ON \
+      /opt/opencv/
+
 ```
 
 Remember to check whether has CuDNN or not
